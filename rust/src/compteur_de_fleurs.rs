@@ -10,7 +10,7 @@ fn compteur_de_fleurs(champ: Vec<char>) -> usize {
     total
 }
 
-fn main() {
+pub fn main() {
     let mut buffer = String::new();
 
     let champ = read_line(&mut buffer).chars().collect();

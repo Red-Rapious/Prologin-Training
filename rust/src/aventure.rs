@@ -1,9 +1,9 @@
 /// * `n` - le nombre de personnes dans le vaisseau
-fn aventure(n: i32) -> usize {
+fn aventure(_n: i32) -> usize {
     42
 }
 
-fn main() {
+pub fn main() {
     let mut buffer = String::new();
 
     let n = read_line(&mut buffer)

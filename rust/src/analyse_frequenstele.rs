@@ -26,7 +26,7 @@ fn contenu_dechiffre(_n: i32, contenu: Vec<char>, occurences: Vec<i32>) -> Vec<c
         .collect()
 }
 
-fn main() {
+pub fn main() {
     let mut buffer = String::new();
 
     let n = read_line(&mut buffer)

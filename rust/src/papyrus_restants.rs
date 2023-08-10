@@ -50,7 +50,7 @@ fn papyrus_restants(a: i32, b: i32) -> u32 {
     total - actuel
 }
 
-fn main() {
+pub fn main() {
     let mut buffer = String::new();
 
     let a = read_line(&mut buffer)

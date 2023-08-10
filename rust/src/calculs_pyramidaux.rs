@@ -6,7 +6,7 @@ fn taille_minimale(hauteur: i32, largeur: i32, longueur: i32) -> i32 {
     hauteur - 1 + i32::max(largeur, longueur)
 }
 
-fn main() {
+pub fn main() {
     let mut buffer = String::new();
 
     let hauteur = read_line(&mut buffer)
