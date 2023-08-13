@@ -3,6 +3,9 @@ pub mod analyse_frequenstele;
 pub mod calculs_pyramidaux;
 pub mod compteur_de_fleurs;
 pub mod papyrus_restants;
+pub mod file_d_attente;
+pub mod echange_profitable;
+pub mod phi_bonnaci;
 
 pub fn main() {
     println!("Hello, Prologin!");
