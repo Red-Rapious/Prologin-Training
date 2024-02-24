@@ -5,8 +5,8 @@ fn phibonacci(_n: i32, mut x: Vec<i32>) -> Vec<i32> {
         for i in (0..x.len()-2).rev() {
             let y = x[i+2];
             x[i+2] = 0;
-            x[i+1] += y;
-            x[i] += y;
+            x[i+1] = x[i+1] + y % 1_000_000_007;
+            x[i] = x[i] + y % 1_000_000_007;
         }
     }
 
