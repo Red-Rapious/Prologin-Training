@@ -6,6 +6,7 @@ pub mod papyrus_restants;
 pub mod file_d_attente;
 pub mod echange_profitable;
 pub mod phi_bonnaci;
+pub mod course_chars;
 
 pub fn main() {
     println!("Hello, Prologin!");
